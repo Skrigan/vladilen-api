@@ -1,4 +1,4 @@
-const express = require('express');
+import express from 'express';
 const app = express();
 
 const port = process.env.PORT || 5002;
@@ -9,5 +9,5 @@ app.get("/api/", (req, res) => {
 })
 
 app.listen(port, ()=> {
-	console.log('server started');
+	console.log(`Server has been started on port ${PORT}...`);
 })
