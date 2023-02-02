@@ -9,5 +9,5 @@ app.get("/api/", (req, res) => {
 })
 
 app.listen(port, ()=> {
-	console.log(`Server has been started on port ${PORT}...`);
+	console.log(`Server has been started on port ${port}...`);
 })
